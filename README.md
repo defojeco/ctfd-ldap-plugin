@@ -50,6 +50,21 @@ docker restart ctfd
 systemctl restart ctfd
 ```
 
+## Docker
+
+If you're running CTFd in Docker, add this to your Dockerfile:
+
+```dockerfile
+FROM ctfd/ctfd:latest
+USER root
+RUN pip install "ldap3>=2.9" "cryptography>=41.0"
+USER ctfd
+```
+
+> Replace `latest` with a specific version tag if needed (e.g. `ctfd/ctfd:3.8.5`)
+
+Without these dependencies the plugin will fail to load silently.
+
 ## Configuration
 
 Open **Admin → LDAP Settings** (`/admin/ldap-settings`) and fill in your AD details.
