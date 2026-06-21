@@ -5,8 +5,9 @@ Active Directory authentication for CTFd. Lets participants sign in with their d
 No alternatives exist for CTFd — this plugin fills a gap that the official project has never addressed.
 
 ## Screenshots
-
+### Admin settings
 ![Admin settings](screenshots/admin-settings.png)
+### Login page
 ![Login page](screenshots/login.png)
 
 ## Features
