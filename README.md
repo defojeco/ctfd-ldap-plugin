@@ -1,5 +1,7 @@
 # CTFd LDAP / Active Directory Plugin
 
+[🇷🇺 Русская версия](README.ru.md)
+
 Active Directory authentication for CTFd. Lets participants sign in with their domain credentials while keeping the standard local login as a fallback.
 
 No alternatives exist for CTFd — this plugin fills a gap that the official project has never addressed.
